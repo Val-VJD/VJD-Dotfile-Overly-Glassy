@@ -1,0 +1,49 @@
+@import url("colors.css");
+
+/*
+ ## //////////////// ##
+ ## //  NWG-DOCK  // ##
+ ## //////////////// ##
+
+ This is nwg-dock-hyprland, a dock a part of the NWG-Shell family of programs
+*/
+
+window {
+	background: rgba(37,37,37,0.15);
+	border-radius: 15px;
+}
+
+#box {
+	/* Define attributes of the box surrounding icons here */
+	padding: 10px;
+}
+
+#active {
+	/* This is to underline the button representing the currently active window */
+	box-shadow: 0px 2px #ffffff;
+	border-color: @on_primary_container;
+}
+
+button, image {
+	background: none;
+	border-style: none;
+	box-shadow: none;
+	color: #999;
+}
+
+button {
+	padding: 1px;
+	margin-left: 4px;
+	margin-right: 4px;
+	color: #eee;
+	font-size: 12px;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 5px;
+}
+
+button:focus {
+	box-shadow: none;
+}

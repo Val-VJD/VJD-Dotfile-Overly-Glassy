@@ -83,8 +83,9 @@ window#waybar {
     margin-bottom: 10px;
     padding-right: 1px;
     padding-left: 1px;
+
     background-color: transparent;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 #taskbar button {
@@ -117,7 +118,6 @@ window#waybar {
 #network,
 #pulseaudio,
 #custom-media,
-#tray,
 #mode,
 #idle_inhibitor,
 #scratchpad,
@@ -128,7 +128,8 @@ window#waybar {
 #backlight,
 #battery,
 #privacy-item,
-#mpris{
+#mpris,
+#pulseaudio-slider{
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: transparent;
@@ -176,11 +177,6 @@ window#waybar {
 
 label:focus {
     background-color: #000000;
-}
-
-#pulseaudio-slider {
-    padding: 0 10px;
-    margin: 0;
 }
 
 #pulseaudio-slider slider {
@@ -237,6 +233,7 @@ label:focus {
 
 #tray {
     background-color: transparent;
+
 }
 
 #tray > .passive {
